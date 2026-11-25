@@ -228,15 +228,7 @@ No environment variables are required for the included deterministic parser. The
 
 No `.env` file, API key, or external service credentials are required for the current implementation. `.env.example` is included to document this.
 
-## Known limitations
 
-- The natural-language parser intentionally supports a focused set of rule patterns; it may request clarification for wording it cannot confidently interpret.
-- The parser handles one rule per request.
-- PDF import requires selectable text and the expected table headings; scanned PDFs are unsupported.
-- Marketplace commission values are not fetched live and must be configured by the user.
-- Profit optimization is a per-unit estimate and does not forecast demand or sales volume.
-
-## Technology stack
 
 - React 18
 - TypeScript
