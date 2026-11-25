@@ -1,0 +1,5 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "functions": { "api/parse-rule.ts": { "maxDuration": 30 } }
+}
